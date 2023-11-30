@@ -1,1 +1,1 @@
-Welcome to Junyi Yan's Homepage: https://junyi-yan.github.io/
+Welcome to Junyi Yan's Homepage: https://Junyi-Yan.github.io/
