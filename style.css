@@ -114,7 +114,7 @@ table{ background-color: #ffffff; }
 /* 全局链接样式 */
 a {
   text-decoration: none;        /* 默认无下划线 */
-  color: #1f82a9;               /* 淡蓝色 */
+  color: #005999;               /* 淡蓝色 */
   font-weight: bold;            /* 加粗 */
   transition: all 0.2s ease;
 }
