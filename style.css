@@ -325,14 +325,7 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
     margin: 15px 0;
   }
   
-/*   h3 {
-    margin-top: 20px;
-    margin-bottom: 12px;
-  } */
-  
-  table#SERVICEOL td {
-    text-align: left;
-  }
+
   
   table#SERVICEOL h8 {
     display: inline-block;
@@ -385,8 +378,9 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
   color: #333;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
-  margin-top: 50px;
+  margin-top: 0; 
 }
+
 
 }
 
