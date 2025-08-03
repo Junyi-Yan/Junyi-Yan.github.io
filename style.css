@@ -20,16 +20,17 @@ body {
 }
 
 .top-nav a {
-  text-decoration: none;
-  color: #333;
+  text-decoration: none;          /* 不显示下划线 */
+  color: #4A90E2;                 /* 淡蓝色 */
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;             /* 加粗 */
 }
 
 .top-nav a:hover {
-  color: #006699;
-  text-decoration: underline;
+  text-decoration: underline;     /* 鼠标悬停时显示下划线 */
+  color: #006699;                 /* 可选：悬停时颜色加深 */
 }
+
 
 .main {
   display: flex;
