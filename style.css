@@ -21,8 +21,8 @@ body {
 
 .top-nav a {
   text-decoration: none;          /* 不显示下划线 */
-  color: #6699CC;                 /* 淡蓝色 */
-  font-size: 16px;
+  color: #FFCC99;                 /* 淡蓝色 */
+  font-size: 25px;
   font-weight: bold;             /* 加粗 */
 }
 
