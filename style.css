@@ -110,15 +110,14 @@ table{ background-color: #ffffff; }
 a, a:link, a:visited {
   color: #1f82a9;
   background: transparent;
-  text-decoration: underline;
+  text-decoration: none; /* 移除默认下划线 */
   cursor: pointer;
-  background-color: underline;
   transition: color 0.2s ease;
 }
+
 a:hover {
   color: #006699;
-  background: inherit;
-  text-decoration: underline;
+  text-decoration: underline; /* 悬停时显示下划线 */
 }
 
 img { 
