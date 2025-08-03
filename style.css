@@ -21,8 +21,8 @@ body {
 
 .top-nav a {
   text-decoration: none;          /* 不显示下划线 */
-  color: #FFCC99;                 /* 淡蓝色 */
-  font-size: 25px;
+  color: #006699;                 /* 淡蓝色 */
+  font-size: 22px;
   font-weight: bold;             /* 加粗 */
 }
 
@@ -43,7 +43,7 @@ body {
 
 .sidebar {
   flex: 0 0 200px; /* 固定宽度 */
-  text-align: left;
+  text-align: center;
 }
 
 .sidebar img {
