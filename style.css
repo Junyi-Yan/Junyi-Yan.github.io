@@ -28,18 +28,12 @@ body {
   text-decoration: none; /* 鼠标悬停时仍不出现下划线 */
   color: #006699; /* 悬停时变色，可选 */
 }
-/*  */
-.top-nav a {
-  text-decoration: none;
-  color: #006699;
-  font-weight: bold;
-  transition: all 0.2s ease;
+.top-nav {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ffffff; /* 或 #f9f9f9，背景色自选 */
+  border-bottom: 1px solid #ddd; /* 可选：下边加一条线 */
 }
-
-.top-nav a:hover {
-  text-decoration: underline;
-  color: #005999;
-} */
 .main {
   display: flex;
   align-items: flex-start; /* 顶部对齐 */
