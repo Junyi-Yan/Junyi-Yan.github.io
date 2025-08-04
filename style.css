@@ -63,7 +63,11 @@ body {
   font-size: 25px;
 }
 
-
+.highlight-link {
+  color: #006699;            /* 淡蓝色 */
+  text-decoration: underline;
+  font-weight: 500;
+}
 
 .sidebar img {
   width: 100%;
