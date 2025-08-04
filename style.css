@@ -16,7 +16,7 @@ body {
 }
 
 /* /* 顶部导航栏样式 */
-.top-nav a {
+/* .top-nav a {
   text-decoration: none; /* 不显示下划线 */
   font-weight: bold;
   margin-right: 15px;
@@ -27,7 +27,7 @@ body {
 .top-nav a:hover {
   text-decoration: none; /* 鼠标悬停时仍不出现下划线 */
   color: #006699; /* 悬停时变色，可选 */
-}
+} */
  */
 .top-nav a {
   text-decoration: none;
