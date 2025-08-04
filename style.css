@@ -375,12 +375,6 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
   hr {
     margin: 12px 0;
   }
-  
- h3 a {
-  text-decoration: none;
-  color: #333;
-  pointer-events: none; /* 使锚点不可点击，仅供跳转，不变样式 */
-}
 
 h3 {
   font-size: 28px;
@@ -389,6 +383,11 @@ h3 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
   margin-top: 0;
+}
+h3 > a {
+  color: #006699;  /* ← 你想要的颜色，可自定义 */
+  font-size: 28px;
+  text-decoration: none; /* 保持标题无下划线 */
 }
 
 
