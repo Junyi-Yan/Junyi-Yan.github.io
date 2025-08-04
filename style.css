@@ -375,11 +375,10 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
   pointer-events: none; /* 使锚点不可点击，仅供跳转，不变样式 */
 }
 
-/* 放大所有 h3 标题字体 */
 h3 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
-  color: #222;
+  color: #333;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
   margin-top: 30px;
