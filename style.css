@@ -14,30 +14,18 @@ body {
   border-radius: 10px;
   margin-top: 0.5cm;
 }
-.top-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 15px 0;
-  border-bottom: 1px solid #ddd;
-  gap: 25px;
-}
-p a {
-  color: #006699;
-  text-decoration: underline;
-  font-weight: 500;
-}
+/* 顶部导航栏样式 */
 .top-nav a {
-  text-decoration: none;          /* 不显示下划线 */
-  color: #006699;                 /* 淡蓝色 */
-  font-size: 22px;
-  font-weight: bold;             /* 加粗 */
+  text-decoration: none; /* 不显示下划线 */
+  font-weight: bold;
+  margin-right: 15px;
+  color: #333;
+  font-size: 18px;
 }
 
 .top-nav a:hover {
-  text-decoration: underline;     /* 鼠标悬停时显示下划线 */
-  color: #006699;                 /* 可选：悬停时颜色加深 */
+  text-decoration: none; /* 鼠标悬停时仍不出现下划线 */
+  color: #006699; /* 悬停时变色，可选 */
 }
 
 .main {
@@ -86,9 +74,9 @@ p a {
   font-size: 18px;
 }
 
-.content {
-  flex: 1; /* 占据剩余空间 */
-  min-width: 0;
+.content a {
+  text-decoration: underline;
+  color: #006699; /* 可选：使链接更明显 */
 }
 
 html {
@@ -381,13 +369,20 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
     margin: 12px 0;
   }
   
- h3 {
-  font-size: 35px;
-  font-weight: bold;
+ h3 a {
+  text-decoration: none;
   color: #333;
+  pointer-events: none; /* 使锚点不可点击，仅供跳转，不变样式 */
+}
+
+/* 放大所有 h3 标题字体 */
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #222;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
-  margin-top: 0; 
+  margin-top: 30px;
 }
 
 
