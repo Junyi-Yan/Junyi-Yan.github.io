@@ -83,10 +83,6 @@ body {
   min-width: 0;
 }
 
-/* h3 {
-  margin-top: 0;
-} */
-
 html {
   background-color: #eeeeee; 
   scroll-behavior: smooth;
@@ -467,11 +463,6 @@ hr {
   margin: 20px 0;
   border: 0;
   border-top: 1px solid #eee;
-}
-
-h3 {
-  margin-top: 25px;
-  margin-bottom: 15px;
 }
 
 /* 交互效果 */
