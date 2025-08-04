@@ -19,7 +19,7 @@ body {
 .top-nav {
   text-align: center;
   font-size: 28px;
-  text-decoration: underline; /* 不显示下划线 */
+  text-decoration: none; /* 不显示下划线 */
   padding: 10px 0;
   background-color: #ffffff; /* 或 #f9f9f9，背景色自选 */
   border-bottom: 1px solid #ddd; /* 可选：下边加一条线 */
