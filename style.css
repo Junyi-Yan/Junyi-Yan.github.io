@@ -87,7 +87,11 @@ body {
   max-width: 800px;
   flex: 1;
 }
-
+.content a {
+  text-decoration: underline;
+  color: #006699;
+  font-weight: normal;
+}
 html {
   background-color: #eeeeee; 
   scroll-behavior: smooth;
@@ -133,7 +137,7 @@ table{ background-color: #ffffff; }
 
 /* 全局链接样式 */
 a {
-  text-decoration: underline;        /* 默认无下划线 */
+  text-decoration: none;        /* 默认无下划线 */
   color: #005999;               /* 淡蓝色 */
   font-weight: bold;            /* 加粗 */
   transition: all 0.2s ease;
