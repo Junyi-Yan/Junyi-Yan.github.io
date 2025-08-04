@@ -9,13 +9,13 @@ body {
   line-height: 1.5;
 }
 .profile-photo {
-  width: 220px;
-  height: auto;
+  width: 100%;
+  max-width: 180px;
   border-radius: 10px;
-  margin-top: 0.5cm;
+  margin-top: 1cm;
 }
 
-/* 顶部导航栏样式 */
+/* /* 顶部导航栏样式 */
 .top-nav a {
   text-decoration: none; /* 不显示下划线 */
   font-weight: bold;
@@ -28,7 +28,18 @@ body {
   text-decoration: none; /* 鼠标悬停时仍不出现下划线 */
   color: #006699; /* 悬停时变色，可选 */
 }
+ */
+.top-nav a {
+  text-decoration: none;
+  color: #006699;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
 
+.top-nav a:hover {
+  text-decoration: underline;
+  color: #005999;
+}
 .main {
   display: flex;
   align-items: flex-start; /* 顶部对齐 */
@@ -75,9 +86,9 @@ body {
   font-size: 18px;
 }
 
-.content a {
-  text-decoration: underline;
-  color: #006699; /* 可选：使链接更明显 */
+.content {
+  max-width: 800px;
+  flex: 1;
 }
 
 html {
@@ -371,12 +382,12 @@ h8 {font-size:16px; font-weight:normal;font-family: Arial;}
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   color: #333;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 
