@@ -23,7 +23,11 @@ body {
   border-bottom: 1px solid #ddd;
   gap: 25px;
 }
-
+p a {
+  color: #006699;
+  text-decoration: underline;
+  font-weight: 500;
+}
 .top-nav a {
   text-decoration: none;          /* 不显示下划线 */
   color: #006699;                 /* 淡蓝色 */
