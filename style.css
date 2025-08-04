@@ -16,6 +16,14 @@ body {
 }
 
 /* /* 顶部导航栏样式 */
+.top-nav {
+  text-align: center;
+  font-size: 28px;
+  text-decoration: underline; /* 不显示下划线 */
+  padding: 10px 0;
+  background-color: #ffffff; /* 或 #f9f9f9，背景色自选 */
+  border-bottom: 1px solid #ddd; /* 可选：下边加一条线 */
+}
 .top-nav a {
   text-decoration: none; /* 不显示下划线 */
   font-weight: bold;
@@ -25,17 +33,10 @@ body {
 }
 
 .top-nav a:hover {
-  text-decoration: none; /* 鼠标悬停时仍不出现下划线 */
+  text-decoration: underline; /* 鼠标悬停时仍不出现下划线 */
   color: #006699; /* 悬停时变色，可选 */
 }
-.top-nav {
-  text-align: center;
-  font-size: 28px;
-  text-decoration: underline; /* 不显示下划线 */
-  padding: 10px 0;
-  background-color: #ffffff; /* 或 #f9f9f9，背景色自选 */
-  border-bottom: 1px solid #ddd; /* 可选：下边加一条线 */
-}
+
 .main {
   display: flex;
   align-items: flex-start; /* 顶部对齐 */
@@ -132,16 +133,16 @@ table{ background-color: #ffffff; }
 
 /* 全局链接样式 */
 a {
-  text-decoration: none;        /* 默认无下划线 */
+  text-decoration: underline;        /* 默认无下划线 */
   color: #005999;               /* 淡蓝色 */
   font-weight: bold;            /* 加粗 */
   transition: all 0.2s ease;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;   /* 鼠标悬停时显示下划线 */
   color: #005999;               /* 深一点的蓝色（可选） */
-}
+} */
 
 img { 
   border: 1; 
