@@ -9,11 +9,12 @@ body {
   line-height: 1.5;
 }
 .profile-photo {
-  width: 100%;
-  max-width: 220px;
+  width: 220px;
+  height: auto;
   border-radius: 10px;
   margin-top: 0.5cm;
 }
+
 /* 顶部导航栏样式 */
 .top-nav a {
   text-decoration: none; /* 不显示下划线 */
