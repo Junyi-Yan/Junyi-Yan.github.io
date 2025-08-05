@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   color: #000;
-  background-color: white;
+  background-color: #9C9C9C;
   text-align: justify;
   margin: 0 auto;
   padding: 10px 55px 30px;
@@ -97,7 +97,7 @@ body {
   font-weight: normal;
 }
 html {
-  background-color: #B0C4DE;
+  background-color: #9C9C9C;
   scroll-behavior: smooth;
 }
 
